@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--Declara que este é um documento html5.-->
+<html lang="pt-br">
+  <head>
+    <!--Cerebro da pagina.-->
+    <meta charset="UTF-8">
+    <!--Suporta outros tipos de caracteres-->
+    <title>Meu portfólio</title>
+    <link rel=icon href=icons8-portfólio-16.png>
+    <style>
+      body {
+        font-family: monospace;
+        background-color: black;
+        color: white;
+      }
+
+      .image-container img {
+        width: 400px;
+        height: 370px;
+        border: solid 1px;
+        border-radius: 260px;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+
+      .p-container p {
+        color: black;
+        background-color: white;
+        border-radius: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--corpo da pagina.-->
+    <center>
+      <h1>portfólio</h1>
+      <div class="image-container">
+        <img src="diego.jpg">
+      </div>
+      <h2>Sobre mim</h2>
+      <div class="p-container">
+        <p>
+          Sou estudante de Análise e desenvolvimento de sistemas, e procuro uma
+          oportunidade na área. Acredito que minhas experiências e habilidades
+          criativas podem ser um grande trunfo. Além disso, viso aprender cada
+          vez mais e me tornar um profissional de excelência na área de
+          tecnologia.
+        </p>
+      </div>
+      <h2>Habilidades</h2>
+      <img src="html.png">
+      <img src="css.png">
+      <img src="js.png">
+      <h3>Nome</h3>
+      <p>Diego martins correia</p>
+      <h3>Idade</h3>
+      <p>30 anos</p>
+      <h3>Email</h3>
+      <p>diego_1995.bv@hotmail.com</p>
+      <h2>Redes</h2>
+      <img src="github.png">
+      <a href="">Github</a>
+      <img src="instagram.png">
+      <a href="">Instagram</a>
+    </center>
+    <script>
+      var nome = window.prompt('Olá seja bem-vindo, ao meu portfólio, qua é o seu nome ?')
+      window.alert('Muito prazer, '+nome)
+    </script>
+  </body>
+</html>
